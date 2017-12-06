@@ -10,5 +10,6 @@
 @interface ColorButton : UIButton
 
 + (UIButton *)buttonWithColor:(UIColor *)color;
++ (UIButton *)buttonWithTitle:(NSString *)title;
 
 @end

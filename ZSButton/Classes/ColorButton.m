@@ -14,4 +14,10 @@
     but.backgroundColor = color;
     return but;
 }
+
++ (UIButton *)buttonWithTitle:(NSString *)title {
+    UIButton *but = [[UIButton alloc] init];
+    but.titleLabel.text = title;
+    return but;
+}
 @end
