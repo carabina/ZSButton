@@ -9,4 +9,6 @@
 
 @interface ColorButton : UIButton
 
++ (UIButton *)buttonWithColor:(UIColor *)color;
+
 @end
