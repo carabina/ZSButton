@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZSButton_Example' do
+  pod 'ZSButton', :path => '../'
+
+  target 'ZSButton_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
